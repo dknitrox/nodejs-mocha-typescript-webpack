@@ -1,7 +1,6 @@
 {
-  "watch": [
-    "dist/*server.js",
-    "src/index.html"
-  ],
-  "ext": "js html"
+  "watch": ["src/**/*.ts","./bin/www.ts","app.ts"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node ./bin/www.ts"
 }
