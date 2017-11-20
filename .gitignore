@@ -1,6 +1,9 @@
 /node_modules/
 /dist/
 /tmp
+.tmp/
+/package-lock.json
+
 /lib/
 /tests/
 /build/
